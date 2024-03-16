@@ -1,3 +1,6 @@
+
+![logo for the astro grad congress](./agc_banner.png)
+
 # The Astronomy Graduate Student Congress
 
 The Astronomy Graduate Student Congress was started by a small group of astronomy grads who attended the recent dotAstro conference in NYC. We noticed that most positive changes to graduate programs tend to come from external pressure rather than internal effort. This motivated us to create some sort of common platform from which we could gain a broader perspective on issues regarding graduate education in astronomy.
@@ -8,4 +11,3 @@ The goal is to bring together astronomy graduate students from across the United
 Cheers,
 Lou Baya Ould Rouis (Boston University), Yasmeen Asali (Yale), Sebastian Monzon (Yale), Lindsay House (UT Austin), and Charlotte Olsen (City Tech)
 
-![logo for the astro grad congress](./AGC_logo.png)
