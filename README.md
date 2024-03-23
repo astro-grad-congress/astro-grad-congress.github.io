@@ -1,13 +1,41 @@
+# The Astronomy Graduate Student Congress Website 
 
-![logo for the astro grad congress](./images/agc_banner.png)
+Under Construction 
 
-# The Astronomy Graduate Student Congress
+## How to add a post: 
 
-The Astronomy Graduate Student Congress was started by a small group of astronomy grads who attended the recent dotAstro conference in NYC. We noticed that most positive changes to graduate programs tend to come from external pressure rather than internal effort. This motivated us to create some sort of common platform from which we could gain a broader perspective on issues regarding graduate education in astronomy.
+In the `_posts` directory you can add a post by creating a new markdown file. It will be automatically posted. Below is an exact copy of the text from jekyll on how to do this: 
 
-The goal is to bring together astronomy graduate students from across the United States to promote interdepartmental discourse. We plan on discussing anything and everything relevant to graduate student life with the hope of creating a supportive and collaborative environment that allows departments to exchange best practices and lessons learned. We think this will help expedite positive change and facilitate the implementation of new policies in graduate programs. Your department's participation will not only benefit your graduate students but will also contribute to a shared pool of knowledge. We are also hoping this congress can serve as a channel to communicate with professional societies (like the AAS) to deliver feedback and guidance to departments, thereby lessening the burden on early career scientists.
+# Contents of an example file: `_posts/2024-03-23-welcome-to-jekyll.markdown`
 
+---
+layout: post
+title:  "Welcome to Jekyll!"
+date:   2024-03-23 16:06:55 -0400
+categories: jekyll update
+---
+You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-Cheers,
-Lou Baya Ould Rouis (Boston University), Yasmeen Asali (Yale), Sebastian Monzon (Yale), Lindsay House (UT Austin), and Charlotte Olsen (City Tech)
+Jekyll requires blog post files to be named according to the following format:
+
+`YEAR-MONTH-DAY-title.MARKUP`
+
+Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+
+Jekyll also offers powerful support for code snippets:
+
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
+
+Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/
+
 

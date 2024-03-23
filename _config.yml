@@ -2,28 +2,34 @@
 # Adapted from LOFFER template
 #
 
-name: AGC
-description: Astronomy Graduate Student Congress Website
+name: Astronomy Graduate Student Congress
+description: Connecting Graduate Students in Astronomy Across Institutions
 
 url: 
 
 baseurl: /astro-grad-congress
 
 # logo (300px × 300px) add rawgithubuserconent link 
-avatar: 
+avatar: images/logo.png
 
 # favicon (64px × 64px 
-favicon:
+favicon: images/logo.png
 
 navigation:
   - name: Home
     url: /
   - name: About
     url: /about
+  - name: Team
+    url: /team
   - name: Archive
     url: /archive
   - name: Tags
     url: /tags
+
+collections:
+  representatives:
+    output: true
 
 paginate: 8
 
