@@ -10,10 +10,10 @@ url:
 baseurl: /astro-grad-congress
 
 # logo (300px × 300px) add rawgithubuserconent link 
-avatar: https://github.com/astro-grad-congress/astro-grad-congress.github.io/blob/0e9284e3bdbe8fb2e8dd9312fa633d60fbc89c9a/images/logo.png
+avatar: https://raw.githubusercontent.com/astro-grad-congress/astro-grad-congress.github.io/main/images/logo.png
 
 # favicon (64px × 64px 
-favicon: https://github.com/astro-grad-congress/astro-grad-congress.github.io/blob/0e9284e3bdbe8fb2e8dd9312fa633d60fbc89c9a/images/logo.png
+favicon:  https://raw.githubusercontent.com/astro-grad-congress/astro-grad-congress.github.io/main/images/logo.png
 
 navigation:
   - name: Home
