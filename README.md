@@ -1,5 +1,5 @@
 
-![logo for the astro grad congress](./agc_banner.png)
+![logo for the astro grad congress](./images/agc_banner.png)
 
 # The Astronomy Graduate Student Congress
 
