@@ -1,0 +1,60 @@
+
+h1 {
+    padding-top: 20px; /* Adds padding to the top */
+    padding-bottom: 20px; /* Adds padding to the bottom */
+    /* You can adjust the 20px to increase or decrease the padding */
+}
+
+h3 {
+    text-align: center; /* Centers the text */
+    padding-top: 20px; /* Adds padding to the top */
+    padding-bottom: 20px; /* Adds padding to the bottom */
+    /* You can adjust the 20px to increase or decrease the padding */
+}
+
+h2 {
+    position: relative;
+    font-size: 30px;
+    z-index: 1;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 20px; /* Adds padding to the top */
+    padding-bottom: 20px; /* Adds padding to the bottom */
+    /* You can adjust the 20px to increase or decrease the padding */
+}
+
+h2:before, h2:after {
+    position: absolute;
+    top: 51%;
+    overflow: hidden;
+    width: 50%;
+    height: 1px;
+    content: '\a0';
+    background-color: #d0d0d0;
+    
+}
+
+h2:before {
+    margin-left: -53%;
+}
+
+h2:after {
+    margin-left: 3%;
+}
+
+/* Define custom container to fix card display */
+
+.custom-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Adjust alignment as needed */
+}
+
+.custom-card {
+    flex: 0 0 calc(33.33% - 20px); /* Adjust width for three cards per row */
+    margin-bottom: 20px;
+    border: 1px solid #d0d0d0;
+    border-radius: 5px;
+    padding: 15px;
+    box-sizing: border-box;
+}

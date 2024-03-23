@@ -5,7 +5,7 @@
 
 // add padding to card image
 .card-img-top {
-    padding: 0px;
+    padding: 10px;
 }
 
 .card-body {
@@ -45,4 +45,26 @@
 .max_card{
     max-width: 400px; /* Adjust the max width as needed */
     // margin: 10%; /* Centers the card in the column */
+}
+
+.custom-card {
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Align items vertically */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    margin-bottom: 20px;
+    border: 1px solid #d0d0d0;
+    border-radius: 5px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.custom-card .card-img-top {
+    max-width: 100%; /* Ensure image doesn't exceed card width */
+    height: auto;
+    margin-bottom: 10px; /* Optional: add space below image */
+}
+
+.custom-card .card-body {
+    padding: 5px; /* Adjust padding as needed */
 }

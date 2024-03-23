@@ -1,34 +1,56 @@
 ---
 layout: page
-title: AGC Representatives
+title: Astronomy Graduate Student Congress Membership
 permalink: /members/
 ---
 
 <h2>Steering Committee</h2>
 
-<div class="container">
-    <div class="row">
-        {% for member in site.representatives %}
-            <div class="col-4">
-                <div class="card flex-fill card-border">
-                    {% if member.external_url %}
-                        <a href="{{ member.external_url }}" class="card-link" target="_blank" rel="noopener noreferrer">
-                    {% else %}
-                        <a href="{{ site.baseurl }}{{ member.url }}" class="card-link">
-                    {% endif %}
-                        {% if member.image %}
-                            <img class="card-img-top custom-card-img" src="{{ member.image | relative_url }}" alt="{{ member.title }}">
-                        {% endif %}
-                        <div class="card-body flex-grow-1">
-                            <h5 class="card-title">{{ member.title }}</h5>
-                            <h6 class="card-text">{{ member.institution }}</h6>
-                            <div class="card-text">
-                                {{ member.text | markdownify }}
-                            </div>
-                        </div>
-                    </a>
+<div class="container custom-container">
+    {% for member in site.steering %}
+        <div class="custom-card">
+            {% if member.external_url %}
+                <a href="{{ member.external_url }}" class="card-link" target="_blank" rel="noopener noreferrer">
+            {% else %}
+                <a href="#" class="card-link">
+            {% endif %}
+                {% if member.image %}
+                    <img class="card-img-top custom-card-img" src="{{ member.image | relative_url }}" alt="{{ member.title }}">
+                {% endif %}
+                <div class="card-body">
+                    <h5 class="card-title">{{ member.title }}</h5>
+                    <h6 class="card-text">{{ member.institution }}</h6>
+                    <div class="card-text">
+                        {{ member.text | markdownify }}
+                    </div>
                 </div>
-            </div>
-        {% endfor %}
-    </div>
+            </a>
+        </div>
+    {% endfor %}
+</div>
+
+
+<h2>Representatives</h2>
+
+<div class="container custom-container">
+    {% for member in site.representatives %}
+        <div class="custom-card">
+            {% if member.external_url %}
+                <a href="{{ member.external_url }}" class="card-link" target="_blank" rel="noopener noreferrer">
+            {% else %}
+                <a href="#" class="card-link">
+            {% endif %}
+                {% if member.image %}
+                    <img class="card-img-top custom-card-img" src="{{ member.image | relative_url }}" alt="{{ member.title }}">
+                {% endif %}
+                <div class="card-body">
+                    <h5 class="card-title">{{ member.title }}</h5>
+                    <h6 class="card-text">{{ member.institution }}</h6>
+                    <div class="card-text">
+                        {{ member.text | markdownify }}
+                    </div>
+                </div>
+            </a>
+        </div>
+    {% endfor %}
 </div>

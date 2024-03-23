@@ -16,19 +16,21 @@ avatar: https://raw.githubusercontent.com/astro-grad-congress/astro-grad-congres
 favicon:  https://raw.githubusercontent.com/astro-grad-congress/astro-grad-congress.github.io/main/images/logo.png
 
 navigation:
-  - name: Home
+  - name: Updates
     url: /
   - name: About
     url: /about
   - name: Members
     url: /members
-  - name: Archive
-    url: /archive
-  - name: Tags
-    url: /tags
+#  - name: Archive
+#    url: /archive
+#  - name: Tags
+#    url: /tags
 
 collections:
   representatives:
+    output: true
+  steering:
     output: true
 
 paginate: 8
