@@ -1,8 +1,10 @@
 ---
 layout: page
 title: AGC Representatives
-permalink: /team/
+permalink: /members/
 ---
+
+<h2>Steering Committee</h2>
 
 <div class="container">
     <div class="row">
@@ -19,6 +21,7 @@ permalink: /team/
                         {% endif %}
                         <div class="card-body flex-grow-1">
                             <h5 class="card-title">{{ member.title }}</h5>
+                            <h6 class="card-text">{{ member.institution }}</h6>
                             <div class="card-text">
                                 {{ member.text | markdownify }}
                             </div>

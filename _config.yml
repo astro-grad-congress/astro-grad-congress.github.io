@@ -20,8 +20,8 @@ navigation:
     url: /
   - name: About
     url: /about
-  - name: Team
-    url: /team
+  - name: Members
+    url: /members
   - name: Archive
     url: /archive
   - name: Tags
