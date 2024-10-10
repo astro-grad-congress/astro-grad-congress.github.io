@@ -2,6 +2,10 @@
 
 Under Construction 
 
+## Reminder: local build 
+
+`bundle exec jekyll serve`
+
 ## How to add a post: 
 
 In the `_posts` directory you can add a post by creating a new markdown file. It will be automatically posted. Below is an exact copy of the text from jekyll on how to do this: 
