@@ -7,6 +7,18 @@ permalink: /members/
 <h2>Steering Committee</h2>
 
 <div class="container custom-container">
+    <ul>
+        {% for member in site.steering %}
+            <li>
+                <strong>{{ member.title }}</strong>, {{ member.institution }}
+            </li>
+        {% endfor %}
+    </ul>
+</div>
+
+<!-- <h2>Steering Committee</h2>
+
+<div class="container custom-container">
     {% for member in site.steering %}
         <div class="custom-card">
             {% if member.external_url %}
@@ -20,14 +32,14 @@ permalink: /members/
                 <div class="card-body">
                     <h5 class="card-title">{{ member.title }}</h5>
                     <h6 class="card-text">{{ member.institution }}</h6>
-<!--                     <div class="card-text">
+                    <div class="card-text">
                         {{ member.text | markdownify }}
-                    </div> -->
+                    </div>
                 </div>
             </a>
         </div>
     {% endfor %}
-</div>
+</div> -->
 
 
 <h2>Representatives</h2>
