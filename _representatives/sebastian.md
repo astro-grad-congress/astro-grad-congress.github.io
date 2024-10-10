@@ -2,7 +2,7 @@
 layout: page
 title: "Sebastian Monzon"
 institution: "Yale University"
-image: "/images/reps/seb.webp"
+image: "/images/reps/seb.jpeg"
 external_url: 
 text: |
     Bio
