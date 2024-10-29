@@ -1,6 +1,6 @@
 ---
-title: ”Karina Barboza”
-institution: “The Ohio State University”
+title: "Karina Barboza"
+institution: "The Ohio State University"
 image: "/images/reps/Karina.jpg"
 external_url: https://sushiyaya.github.io/karinabarboza/  
 ---
