@@ -18,6 +18,12 @@ The steering committee organizes general body meetings and meets every other wee
 
 [^1]: Any department with significant Astronomy research qualifies, even if not technically an Astronomy department. Some Physics or Earth Planetary Sciences departments are included. We have limited our representation to the United States so far. More information on our Astro lists can be found on this blog post.
 
+# Contact 
+
+You can reach the Astro Grad Congress at [astrogradcongress@gmail.com](mailto:astrogradcongress@gmail.com)
+
+Feel free to get in touch with questions, ideas, or to get involved!
+
 
 # Origins
 
