@@ -1,7 +1,7 @@
 ---
-title: “Veronica Pratt”
-institution: “Tufts University”
-image: “/images/reps/veronica-pratt.jpg”
+title: "Veronica Pratt"
+institution: "Tufts University"
+image: "/images/reps/veronica-pratt.jpg"
 external_url: 
 ---
 
