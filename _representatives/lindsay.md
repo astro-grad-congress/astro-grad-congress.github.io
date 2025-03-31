@@ -1,11 +1,9 @@
 ---
 layout: page
-title: "Lindsay House"
-institution: "UT Austin"
-image: "/images/logo.png"
-external_url: 
-text: |
-    Bio
+title: "Lindsay R. House"
+institution: "University of Texas Austin "
+image: "/images/reps/lindsay-house.JPG"
+External_url: https://lindsay.house/
 ---
 
 
