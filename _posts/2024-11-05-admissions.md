@@ -2,7 +2,7 @@
 layout: post
 title: AAS Graduate Admissions Task Force
 date: 2024-11-05
-Author: Sebastian Monzon
+author: Sebastian Monzon
 tags: 
 comments: false
 toc: false
